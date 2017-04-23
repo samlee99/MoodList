@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MoodList</string>
+
+    <!-- Emotion subscription key -->
+    <!-- Please refer to https://www.projectoxford.ai/ to get your subscription key -->
+    <!-- If you have one subscription key, you can add it here to use the service -->
+    <string name="subscription_key">d9f5a10ed4bd4f2c8bfcd57a2f3118c4</string>
+
+    <!-- Face subscription key -->
+    <!-- Please refer to http://oxford-portal.azurewebsites.net/doc/general/subscription-key-mgmt to get your subscription key -->
+    <!-- Please note that the Emotion API and Face API have different subscription keys -->
+    <!-- You will need Face subscription key, besides the Emotion subscription keys, for the second part of the sample to work -->
+    <string name="faceSubscription_key">4bc7156e59ee4344b25dbab218ca96a3</string>
+
+    <!-- Display strings -->
+    <string name="username_email">Username or email</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+
+
 </resources>
